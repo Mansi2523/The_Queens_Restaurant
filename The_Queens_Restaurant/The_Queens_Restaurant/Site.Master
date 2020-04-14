@@ -26,7 +26,7 @@
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-            <!-- IE panel
+             <!-- IE panel
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/></a></div>
     <div class="preloader">
       <div class="preloader-body">
@@ -48,7 +48,7 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
                 <!--Navbar Brand-->
-                <div class="rd-navbar-brand"><a href="Homepage.aspx"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' alt='' src=""/></a></div>
+                <div class="rd-navbar-brand"><a href="Homepage.aspx"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' alt='' src="images/qlogo.jpg"/></a></div>
               </div>
               <div class="rd-navbar-menu-wrap">
                 <div class="rd-navbar-nav-wrap">
@@ -426,20 +426,20 @@
                 <div class="col-12">
                   <div class="isotope" data-isotope-layout="masonry" data-isotope-group="gallery">
                     <div class="row" data-lightgallery="group">
-                      <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-01-285x285.jpg">
-                          <figure><img width="285" height="285" src="C:\Users\aatek\Downloads\Queens_Restaurant\Queens_Restaurant\images\gmap_marker.png" alt=""/>
+                       <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-01-285x285.jpg">
+                          <figure><img width="285" height="285" src="images/gallery-01-285x285.jpg" alt=""/>
                           </figure></a>
                       </div>
                       <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-02-285x285.jpg">
-                          <figure><img width="285" height="285" src="C:\Users\aatek\Downloads\Queens_Restaurant\Queens_Restaurant\images\gallery-02-285x285.jpg" alt=""/>
+                          <figure><img width="285" height="285" src="images/gallery-02-285x285.jpg" alt=""/>
                           </figure></a>
                       </div>
                       <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-03-601x442.jpg">
-                          <figure><img width="601" height="442" src="C:\Users\aatek\Downloads\Queens_Restaurant\Queens_Restaurant\images\gallery-03-601x442.jpg" alt=""/>
+                          <figure><img width="601" height="442" src="images/gallery-03-601x442.jpg" alt=""/>
                           </figure></a>
                       </div>
                       <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-04-600x600.jpg">
-                          <figure><img width="600" height="600" src="C:\Users\aatek\Downloads\Queens_Restaurant\Queens_Restaurant\images\gallery-04-600x600.jpg" alt=""/>
+                          <figure><img width="600" height="600" src="images/gallery-04-600x600.jpg" alt=""/>
                           </figure></a>
                       </div>
                       <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-05-600x600.jpg">
@@ -500,7 +500,7 @@
                 </div>
                 <div class="col-sm-12 offset-top-66 col-xl-3 order-xl-1 offset-xl-top-0 order-lg-3">
                   <!-- Footer brand-->
-                  <div class="footer-brand"><a href="Homepage.aspx"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' src='images/logo.png' alt=''/></a></div>
+                  <div class="footer-brand"><a href="Homepage.aspx"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' src="images/qlogo.jpg" alt=''/></a></div>
                   <p class="text-darker offset-top-4">Get the best dining experience</p>
                   <address class="contact-info offset-top-30 p">
                     <div>
