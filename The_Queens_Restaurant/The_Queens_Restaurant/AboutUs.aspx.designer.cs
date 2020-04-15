@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Queens_Restaurant {
+namespace The_Queens_Restaurant {
     
     
     public partial class AboutUs {
