@@ -10,6 +10,6 @@
 namespace The_Queens_Restaurant {
     
     
-    public partial class Homepage {
+    public partial class ContactUs {
     }
 }

@@ -1,42 +1,33 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="The_Queens_Restaurant.Site" %>
 
-<!DOCTYPE html>
-
-<html>
-<head runat="server">
-    <title>The Queens Restaurant</title>
-    <meta charset="utf-8"/>
-    <meta name="format-detection" content="telephone=no"/>
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-    <meta name="keywords" content="The Queens Restaurant"/>
-    <meta name="date" content="Apr 25"/>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script:700%7CRaleway:300,400,600,700,900"/>
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/fonts.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
+<!-- RD Navbar Simple submenu--><!DOCTYPE html>
+<html class="wow-animation" lang="en">
+  <head>
+    <title>Intense Restaurant</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="keywords" content="Intense Restaurant">
+    <meta name="date" content="Apr 25">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script:700%7CRaleway:300,400,600,700,900">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-            <!-- IE panel
-    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/></a></div>
+  </head>
+  <body>
+    <!-- IE panel-->
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
           <div class="cssload-speeding-wheel"></div>
         </div>
       </div>
-    </div>-->
+    </div>
     <!-- Page-->
-    
+    <div class="page text-center"><a class="banner banner-top" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank"><img src="images/intense.jpg" alt=""></a>
       <!-- Page Head-->
       <header class="page-head slider-menu-position">
         <!-- RD Navbar Transparent-->
@@ -48,13 +39,13 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
                 <!--Navbar Brand-->
-                <div class="rd-navbar-brand"><a href="Homepage.aspx"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' alt='' src=""/></a></div>
+                <div class="rd-navbar-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' src='images/logo.png' alt=''/></a></div>
               </div>
               <div class="rd-navbar-menu-wrap">
                 <div class="rd-navbar-nav-wrap">
                   <div class="rd-navbar-mobile-scroll">
                     <!--Navbar Brand Mobile-->
-                    <div class="rd-navbar-mobile-brand"><a href="Homepage.aspx"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' alt='' src=""/></a></div>
+                    <div class="rd-navbar-mobile-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' src='images/logo.png' alt=''/></a></div>
                     <div class="form-search-wrap">
                       <form class="form-search" action="#" method="GET">
                         <div class="form-group">
@@ -66,13 +57,13 @@
                     </div>
                     <!-- RD Navbar Nav-->
                     <ul class="rd-navbar-nav">
-                      <li class="active"><a href="Homepage.aspx"><span>Home</span></a>
+                      <li class="active"><a href="index.html"><span>Home</span></a>
                       </li>
-                      <li><a href="aboutus.aspx"><span>About Us</span></a>
+                      <li><a href="about.html"><span>About Us</span></a>
                       </li>
-                      <li><a href="menu.aspx"><span>Typography</span></a>
+                      <li><a href="typography.html"><span>Typography</span></a>
                       </li>
-                      <li><a href="contacts.aspx"><span>Contacts</span></a>
+                      <li><a href="contacts.html"><span>Contacts</span></a>
                       </li>
                     </ul>
                   </div>
@@ -99,8 +90,8 @@
             <div class="parallax-content">
               <div class="container">
                 <div class="section-110 section-cover row justify-content-sm-center align-items-sm-center">
-                  <div class="col-lg-8"><img src="images/intro-logo-175x173.png" alt="" width="175" height="173" />
-                    <h1 class="font-accent"><span class="big">The Queens Restaurant</span></h1>
+                  <div class="col-lg-8"><img src="images/intro-logo-175x173.png" alt="" width="175" height="173">
+                    <h1 class="font-accent"><span class="big">Intense Restaurant</span></h1>
                     <div class="group">
                       <div class="group-item d-block"><span class="icon icon-xxs mdi mdi-navigation text-middle"></span> <span class="text-middle"><a class="link-white" href="#">4578 Marmora Road, Glasgow D04 89GR</a></span>
                       </div>
@@ -427,19 +418,19 @@
                   <div class="isotope" data-isotope-layout="masonry" data-isotope-group="gallery">
                     <div class="row" data-lightgallery="group">
                       <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-01-285x285.jpg">
-                          <figure><img width="285" height="285" src="C:\Users\aatek\Downloads\Queens_Restaurant\Queens_Restaurant\images\gmap_marker.png" alt=""/>
+                          <figure><img width="285" height="285" src="images/gallery-01-285x285.jpg" alt=""/>
                           </figure></a>
                       </div>
                       <div class="col-12 col-sm-6 col-lg-4 col-xl-2 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-02-285x285.jpg">
-                          <figure><img width="285" height="285" src="C:\Users\aatek\Downloads\Queens_Restaurant\Queens_Restaurant\images\gallery-02-285x285.jpg" alt=""/>
+                          <figure><img width="285" height="285" src="images/gallery-02-285x285.jpg" alt=""/>
                           </figure></a>
                       </div>
                       <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-03-601x442.jpg">
-                          <figure><img width="601" height="442" src="C:\Users\aatek\Downloads\Queens_Restaurant\Queens_Restaurant\images\gallery-03-601x442.jpg" alt=""/>
+                          <figure><img width="601" height="442" src="images/gallery-03-601x442.jpg" alt=""/>
                           </figure></a>
                       </div>
                       <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-04-600x600.jpg">
-                          <figure><img width="600" height="600" src="C:\Users\aatek\Downloads\Queens_Restaurant\Queens_Restaurant\images\gallery-04-600x600.jpg" alt=""/>
+                          <figure><img width="600" height="600" src="images/gallery-04-600x600.jpg" alt=""/>
                           </figure></a>
                       </div>
                       <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-05-600x600.jpg">
@@ -470,7 +461,7 @@
           </div>
         </section>
       </main>
-      <!-- Page Footer-->
+      <!-- Page Footer--><a class="banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank"><img src="images/intense_big.jpg" alt=""></a>
       <!-- Default footer-->
       <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-gray-base context-dark">
         <div class="container">
@@ -500,7 +491,7 @@
                 </div>
                 <div class="col-sm-12 offset-top-66 col-xl-3 order-xl-1 offset-xl-top-0 order-lg-3">
                   <!-- Footer brand-->
-                  <div class="footer-brand"><a href="Homepage.aspx"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' src='images/logo.png' alt=''/></a></div>
+                  <div class="footer-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' src='images/logo.png' alt=''/></a></div>
                   <p class="text-darker offset-top-4">Get the best dining experience</p>
                   <address class="contact-info offset-top-30 p">
                     <div>
@@ -518,7 +509,7 @@
                     <div>
                       <dl class="offset-top-0">
                         <dt class="text-white">E-mail:</dt>
-                        <dd class="text-dark"><a href="mailto:#">mail@thequeensreataurant.co.nz</a></dd>
+                        <dd class="text-dark"><a href="mailto:#">mail@demolink.org</a></dd>
                       </dl>
                     </div>
                   </address>
@@ -572,7 +563,7 @@
           </div>
         </div>
         <div class="container offset-top-50">
-          <p class="small text-darker"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>The Queens Restaurant</span>. All Rights Reserved. Design by Aateka Vohra and Mansi Patel</p>
+          <p class="small text-darker"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Intense Restaurant</span>. All Rights Reserved. Design by <a href="https://www.templatemonster.com">TemplateMonster</a></p>
         </div>
       </footer>
     </div>
@@ -581,7 +572,5 @@
     <!-- Java script-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
-        
-    </form>
-</body>
+  </body>
 </html>

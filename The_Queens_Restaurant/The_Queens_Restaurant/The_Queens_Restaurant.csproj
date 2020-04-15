@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.html" />
     <Content Include="bat\phpmailer\class.phpmailer.php" />
     <Content Include="bat\phpmailer\class.pop3.php" />
     <Content Include="bat\phpmailer\class.smtp.php" />
@@ -88,6 +89,7 @@
     <Content Include="bat\twitter_api\tweet.php" />
     <Content Include="bat\twitter_api\twitteroauth\OAuth.php" />
     <Content Include="bat\twitter_api\twitteroauth\twitteroauth.php" />
+    <Content Include="ContactUs.aspx" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\fonts.css" />
     <Content Include="css\soundcloud.css" />
@@ -137,11 +139,19 @@
     <Content Include="images\vimeo-play.png" />
     <Content Include="images\youtube-play.png" />
     <Content Include="images\_blank.png" />
+    <Content Include="index.html" />
     <Content Include="js\core.min.js" />
     <Content Include="js\script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Homepage.aspx.cs">
       <DependentUpon>Homepage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -150,13 +160,6 @@
       <DependentUpon>Homepage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Site.Master.cs">
-      <DependentUpon>Site.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site.Master.designer.cs">
-      <DependentUpon>Site.Master</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="bat\rd-mailform.config.json" />
@@ -180,7 +183,6 @@
     <Content Include="fonts\materialdesignicons-webfont.woff" />
     <Content Include="fonts\materialdesignicons-webfont.woff2" />
     <None Include="packages.config" />
-    <Content Include="Site.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
