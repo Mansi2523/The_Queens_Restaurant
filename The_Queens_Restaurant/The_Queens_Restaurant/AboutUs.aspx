@@ -21,7 +21,7 @@
 </head>
 <body>
     <!-- IE panel-->
-    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/></a></div>
+    <div class="ie-panel"></div>
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
@@ -30,7 +30,7 @@
       </div>
     </div>
     <!-- Page-->
-    <div class="page text-center"><a class="banner banner-top" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank"></a>
+    <div class="page text-center"><a class="banner banner-top" href="" target="_blank"></a>
       <!-- Page Head-->
       <header class="page-head slider-menu-position">
         <!-- RD Navbar Transparent-->
@@ -42,13 +42,16 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
                 <!--Navbar Brand-->
-                <div class="rd-navbar-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' src='images/logo.png' alt=''/></a></div>
+                <div class="rd-navbar-brand"><a href="Homepage.aspx"></a><h1 style="margin-top: 0px;margin-left: -15px;" width="218" height="32">
+                    <span class="d-block font-accent big" style="font-size: 34px;color: #fff;">The Queens Restaurant</span>
+                    </h1>
+                </div>
               </div>
               <div class="rd-navbar-menu-wrap">
                 <div class="rd-navbar-nav-wrap">
                   <div class="rd-navbar-mobile-scroll">
                     <!--Navbar Brand Mobile-->
-                    <div class="rd-navbar-mobile-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' src='images/logo.png' alt=''/></a></div>
+                    <div class="rd-navbar-mobile-brand"><a href="Homepage.aspx"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' src='' alt=''/></a></div>
                     <div class="form-search-wrap">
                       <form class="form-search" action="#" method="GET">
                         <div class="form-group">
@@ -62,7 +65,7 @@
                     <ul class="rd-navbar-nav">
                       <li><a href="index.html"><span>Home</span></a>
                       </li>
-                      <li class="active"><a href="about.html"><span>About Us</span></a>
+                      <li class="active"><a href="AboutUs.aspx"><span>About Us</span></a>
                       </li>
                       <li><a href="Menu.aspx"><span>Menu</span></a>
                       </li>
@@ -112,7 +115,7 @@
             <div class="row justify-content-xl-center">
               <div class="col-xl-10">
                 <h1><span class="d-block font-accent big">Who We Are</span></h1>
-                <hr class="divider bg-mantis offset-top-30"><img class="img-fluid mx-auto d-block shadow-drop-xl offset-top-66" src="images/image-04-570x321.jpg" alt="" width="570" height="321">
+                <hr class="divider bg-mantis offset-top-30"><img class="img-fluid mx-auto d-block shadow-drop-xl offset-top-66" src="images/IMG-20200210-WA0081.jpg" alt="" width="570" height="321"/>
                 <p class="offset-top-50">At our restaurant, you can find representatives of the most popular cuisines on a worldwide scale. Whether you want a usual or exotic dish, don’t hesitate to leaf through our diverse menu and order what you like. We use only healthy ingredients, thus making our meals suitable for people who keep an eye on their ration or follow a diet. Are you a diner with special dietary needs? Then, you must pay a visit to our top-notch restaurant and try our wholesome food.</p>
               </div>
             </div>
@@ -150,9 +153,9 @@
                 <h1><span class="d-block font-accent big">Best Food</span><span class="d-block offset-top-4 h3 text-light text-uppercase">From our Head Chef</span></h1>
                 <hr class="divider hr-lg-left-0 bg-mantis offset-top-30">
                 <p>The work is always in a full swing in our kitchen! Everyone here is on fire when it comes to cooking. The best cooks all over the world are gathered here together to create something really special to impress you deeply.</p>
-                <p>The latest in cooking fashion, best recipes and fresh goods, this is the formula of our success.</p><img class="img-fluid offset-to-30" src="images/image-10-229x82.png" alt="" width="229" height="82">
+                <p>The latest in cooking fashion, best recipes and fresh goods, this is the formula of our success.</p><img class="img-fluid offset-to-30" src="images/image-10-229x82.png" alt="" width="229" height="82"/>
               </div>
-              <div class="col-lg-7 align-self-lg-end d-none d-md-block"><img class="img-fluid" src="images/image-09-669x610.png" alt="" width="669" height="610"></div>
+              <div class="col-lg-7 align-self-lg-end d-none d-md-block"><img class="img-fluid" src="images/image-09-669x610.png" alt="" width="669" height="610"/></div>
             </div>
           </div>
         </section>
@@ -229,25 +232,27 @@
                 </div>
                 <div class="col-sm-12 offset-top-66 col-xl-3 order-xl-1 offset-xl-top-0 order-lg-3">
                   <!-- Footer brand-->
-                  <div class="footer-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' src='images/logo.png' alt=''/></a></div>
+                  <div class="footer-brand"><a href="Homepage.aspx"><h1 style="margin-top: -16px; margin-left: 0px;" width="218" height="32">
+                    <span class="d-block font-accent big" style="font-size: 25px;color: #fff;">The Queens Restaurant</span>
+                    </h1></a></div>
                   <p class="text-darker offset-top-4">Get the best dining experience</p>
                   <address class="contact-info offset-top-30 p">
                     <div>
                       <dl>
                         <dt class="text-white">Address:</dt>
-                        <dd class="text-dark d-xl-block">28 Jackson Blvd Ste <span class="d-xl-block">1020 Chicago</span> <span class="d-xl-block">IL 60604-2340.</span></dd>
+                        <dd class="text-dark d-xl-block">Queensgate <span class="d-xl-block">Lower Hutt</span> <span class="d-xl-block">5011</span></dd>
                       </dl>
                     </div>
                     <div>
                       <dl class="offset-top-0">
                         <dt class="text-white">Telephone:</dt>
-                        <dd class="text-dark"><a href="tel:#">+1 800 559 6580</a></dd>
+                        <dd class="text-dark"><a href="tel:#">+64 800 559 6580</a></dd>
                       </dl>
                     </div>
                     <div>
                       <dl class="offset-top-0">
                         <dt class="text-white">E-mail:</dt>
-                        <dd class="text-dark"><a href="mailto:#">mail@demolink.org</a></dd>
+                        <dd class="text-dark"><a href="mailto:#">mail@thequeensrestaurant.com</a></dd>
                       </dl>
                     </div>
                   </address>
@@ -301,7 +306,7 @@
           </div>
         </div>
         <div class="container offset-top-50">
-          <p class="small text-darker"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Intense Restaurant</span>. All Rights Reserved. Design by <a href="https://www.templatemonster.com">TemplateMonster</a></p>
+          <p class="small text-darker"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>The Queens Restaurant</span>. All Rights Reserved. Design by Aateka Vohra and Mansi Patel</p>
         </div>
       </footer>
     </div>
