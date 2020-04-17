@@ -9,7 +9,7 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-    <meta name="keywords" content="Intense Restaurant"/>
+    <meta name="keywords" content="I Restaurant"/>
     <meta name="date" content="Apr 25"/>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script:700%7CRaleway:300,400,600,700,900"/>
@@ -41,7 +41,9 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
                 <!--Navbar Brand-->
-                <div class="rd-navbar-brand"><a href="Homepage.aspx"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' src='images/logo.png' alt=''/></a></div>
+                <div class="rd-navbar-brand"><p href="Homepage.aspx"></p><h1 style="margin-top: -16px;margin-left: -15px;" width="218" height="32">
+                    <span class="d-block font-accent big" style="font-size: 34px;color: #fff;">The Queens Restaurant</span>
+                    </h1></div>
               </div>
               <div class="rd-navbar-menu-wrap">
                 <div class="rd-navbar-nav-wrap">
@@ -61,9 +63,9 @@
                     <ul class="rd-navbar-nav">
                       <li><a href="Homepage.aspx"><span>Home</span></a>
                       </li>
-                      <li><a href="about.html"><span>About Us</span></a>
+                      <li><a href="aboutus.aspx"><span>About Us</span></a>
                       </li>
-                      <li><a href="typography.html"><span>Typography</span></a>
+                      <li><a href="Menu.aspx"><span>Menu</span></a>
                       </li>
                       <li class="active"><a href="ContactUs.aspx"><span>Contact Us</span></a>
                       </li>
@@ -115,10 +117,10 @@
                 <p>Email us with any questions or inquiries or use our contact data. We would be happy to answer you as soon as possible.</p>
                 <address class="contact-info offset-top-50">
                   <div class="h6 text-uppercase font-weight-bold text-picton-blue letter-space-none offset-top-none">The Queens Restaurant</div>
-                  <p>Queensgate, Lower Hutt.</p>
+                  <p>Queensgate, Lower Hutt,5011.</p>
                   <dl class="offset-top-0">
                     <dt>Telephone</dt>
-                    <dd><a href="tel:#">+1 800 603 6035</a></dd>
+                    <dd><a href="tel:#">+64 800 603 6035</a></dd>
                   </dl>
                   <dl>
                     <dt>E-mail:</dt>
@@ -127,10 +129,10 @@
                 </address>
                 <address class="contact-info offset-top-50">
                   <div class="h6 text-uppercase font-weight-bold text-picton-blue letter-space-none">The Queens Cafe</div>
-                  <p>Queensgate, Lower Hutt.</p>
+                  <p>Queensgate, Lower Hutt, 5011.</p>
                   <dl class="offset-top-0">
                     <dt>Telephone</dt>
-                    <dd><a href="tel:#">+1 800 559 6580</a></dd>
+                    <dd><a href="tel:#">+64 800 559 6580</a></dd>
                   </dl>
                   <dl>
                     <dt>E-mail:</dt>
@@ -181,7 +183,7 @@
                   </div>
         </section>
       </main>
-      <!-- Page Footer--><a class="banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank"><img src="" alt=""></a>
+      <!-- Page Footer--><a class="banner" href="" target="_blank"><img src="" alt=""></a>
       <!-- Default footer-->
       <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-gray-base context-dark">
         <div class="container">
@@ -211,19 +213,21 @@
                 </div>
                 <div class="col-sm-12 offset-top-66 col-xl-3 order-xl-1 offset-xl-top-0 order-lg-3">
                   <!-- Footer brand-->
-                  <div class="footer-brand"><a href="Homepage.aspx"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' src='images/logo.png' alt=''/></a></div>
+                  <div class="footer-brand"><p href="Homepage.aspx"></p><h1 style="margin-top: -16px;margin-left: 0px;" width="218" height="32">
+                    <span class="d-block font-accent big" style="font-size: 25px;color: #fff;">The Queens Restaurant</span>
+                    </h1></div>
                   <p class="text-darker offset-top-4">Get the best dining experience</p>
                   <address class="contact-info offset-top-30 p">
                     <div>
                       <dl>
                         <dt class="text-white">Address:</dt>
-                        <dd class="text-dark d-xl-block">Queensgate <span class="d-xl-block">Lower Hutt</span> <span class="d-xl-block">IL 60604-2340.</span></dd>
+                        <dd class="text-dark d-xl-block">Queensgate <span class="d-xl-block">Lower Hutt</span> <span class="d-xl-block">5011</span></dd>
                       </dl>
                     </div>
                     <div>
                       <dl class="offset-top-0">
                         <dt class="text-white">Telephone:</dt>
-                        <dd class="text-dark"><a href="tel:#">+1 800 559 6580</a></dd>
+                        <dd class="text-dark"><a href="tel:#">+64 800 559 6580</a></dd>
                       </dl>
                     </div>
                     <div>

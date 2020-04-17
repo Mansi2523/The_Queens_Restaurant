@@ -496,25 +496,27 @@
                 </div>
                 <div class="col-sm-12 offset-top-66 col-xl-3 order-xl-1 offset-xl-top-0 order-lg-3">
                   <!-- Footer brand-->
-                  <div class="footer-brand"><a href="Homepage.aspx"><img style='margin-top: -5px;margin-left: -15px;' width='218' height='32' src='images/logo.png' alt=''/></a></div>
+                  <div class="footer-brand"><p href="Homepage.aspx"></p><h1 style="margin-top: -16px;margin-left: 0px;" width="218" height="32">
+                    <span class="d-block font-accent big" style="font-size: 25px;color: #fff;">The Queens Restaurant</span>
+                    </h1></div>
                   <p class="text-darker offset-top-4">Get the best dining experience</p>
                   <address class="contact-info offset-top-30 p">
                     <div>
                       <dl>
                         <dt class="text-white">Address:</dt>
-                        <dd class="text-dark d-xl-block">28 Jackson Blvd Ste <span class="d-xl-block">1020 Chicago</span> <span class="d-xl-block">IL 60604-2340.</span></dd>
+                        <dd class="text-dark d-xl-block">Queensgate <span class="d-xl-block">Lower Hutt</span> <span class="d-xl-block">5011</span></dd>
                       </dl>
                     </div>
                     <div>
                       <dl class="offset-top-0">
                         <dt class="text-white">Telephone:</dt>
-                        <dd class="text-dark"><a href="tel:#">+1 800 559 6580</a></dd>
+                        <dd class="text-dark"><a href="tel:#">+64 800 559 6580</a></dd>
                       </dl>
                     </div>
                     <div>
                       <dl class="offset-top-0">
                         <dt class="text-white">E-mail:</dt>
-                        <dd class="text-dark"><a href="mailto:#">mail@demolink.org</a></dd>
+                        <dd class="text-dark"><a href="mailto:#">mail@thequeensrestaurant.com</a></dd>
                       </dl>
                     </div>
                   </address>
